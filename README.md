@@ -54,7 +54,7 @@ Xem [group-feedback-synthesis.md](group-feedback-synthesis.md) — tổng hợp 
 
 ## AI Support Log
 
-_(Để Hưng tự viết — mình (Lực) không viết thay được phần này, vì đây là lời của chính người dùng AI, không phải người khác suy đoán hộ.)_
+Xem [ai-support-log.md](ai-support-log.md) — AI giúp hệ thống hoá yêu cầu bài lab, so sánh cơ chế Human–AI giữa ba option và gợi ý cách thể hiện uncertainty/recovery; các chỗ AI đi nhanh hơn evidence cho phép hoặc làm ba option lệch nhau về user flow đã được nhóm rà lại trước khi giữ.
 
 ## Trạng thái Gate
 
