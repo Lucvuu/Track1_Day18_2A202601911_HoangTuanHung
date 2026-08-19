@@ -1,8 +1,24 @@
 # Prototype Feedback Note
 
-**Trạng thái: MOCK / DRY-RUN — không phải feedback từ tester thật, không tính vào Gate 4.** Hưng tự đóng vai tester để luyện format trước khi test thật; phần "Still Unproven" bên dưới tự ghi rõ điều này. Nếu không kịp test người thật trước hạn nộp, giữ nguyên trạng thái mock này, không đổi nhãn.
+**Trạng thái:** có 1 phản hồi thật (mục "Phản hồi thật" ngay dưới đây) — thu thập bởi Vũ Thế Lực thay Hưng, vì Hưng đang nằm viện không tự facilitate được. Phần "Mock / Dry-run" phía sau vẫn giữ nguyên làm tài liệu tham khảo, không tính vào Gate 4.
 
-Phần thật (facilitate với người ngoài nhóm): **chưa có.** Xem [group-feedback-synthesis.md](group-feedback-synthesis.md) cho 12 phản hồi thật đã thu thập trong repo chung của Lực.
+## Phản hồi thật
+
+**Người trả lời:** 1 người ngoài nhóm, chưa nằm trong 12 người ở repo Lực. Tự mở link prototype (https://claude.ai/code/artifact/fce7227a-a027-47b1-9282-2ebf58048e26), tự dùng cả A/B/C, tự báo lại qua tin nhắn — không có ai quan sát hành vi trực tiếp, giống phương pháp đã dùng cho 12 phản hồi bên repo Lực.
+
+**Lựa chọn:** B — AI Review Queue
+
+**Lý do:** B cân bằng nhất giữa tự động hóa và quyền kiểm soát. AI chủ động gom các tín hiệu và đưa ra những trường hợp đáng chú ý, nhưng Coach vẫn được xem evidence rồi mới quyết định. A an toàn nhưng hơi thủ công; C nhanh hơn nhưng AI chủ động quá nhiều nên người này sẽ dè chừng hơn khi dùng trong bối cảnh học tập.
+
+**Điểm khó chịu nhất:** khó tin mức High/Medium/Low Priority nếu giao diện không cho biết ngay vì sao AI xếp mức đó. Muốn thấy 2–3 evidence chính ngay trên card (ví dụ checkpoint chưa hoàn thành, repeated attempts, help request) thay vì phải bấm sâu vào màn hình khác mới hiểu recommendation.
+
+**Đối chiếu:** đây là lần thứ ba cùng một điểm được nêu ra độc lập — 4/12 người trong repo Lực, bản dry-run mock của Hưng, và giờ là phản hồi thật này — đều vướng đúng chỗ "chưa rõ vì sao AI xếp priority". Ba nguồn khác nhau chỉ cùng một chỗ là tín hiệu đáng tin để ưu tiên sửa thật, dù cỡ mẫu tổng vẫn nhỏ.
+
+---
+
+## Mock / Dry-run (tài liệu tham khảo, không tính vào Gate 4)
+
+Hưng tự đóng vai tester để luyện format trước khi có phản hồi thật ở trên. Giữ lại bên dưới vì bản dry-run đã dự đoán đúng phát hiện.
 
 ---
 

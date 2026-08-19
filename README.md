@@ -48,7 +48,7 @@ Việc tôi làm:
 
 Xem [group-feedback-synthesis.md](group-feedback-synthesis.md) — tổng hợp chung của nhóm từ 12 phản hồi thật (thu thập bởi Lực, xem chi tiết phương pháp trong file đó).
 
-[`prototype-feedback-note.md`](prototype-feedback-note.md) của riêng tôi hiện là một bản dry-run mock (tôi tự đóng vai tester để luyện format trước khi test thật) — file tự ghi rõ trạng thái này ở đầu, không tính là feedback thật và không tính vào Gate 4. Chưa tự facilitate được phiên nào với người ngoài nhóm trước hạn nộp.
+[`prototype-feedback-note.md`](prototype-feedback-note.md) của riêng tôi có 1 phản hồi thật (thu thập bởi Lực thay tôi, vì tôi đang nằm viện không tự facilitate được) — chọn Option B, khó chịu nhất ở việc chưa rõ AI tính priority từ đâu, trùng với pattern đã thấy ở cả repo Lực lẫn bản dry-run mock tôi làm trước đó. File còn giữ bản mock để tham khảo, có ghi rõ phần nào là thật.
 
 ## AI Support Log
 
@@ -59,5 +59,5 @@ Xem [ai-support-log.md](ai-support-log.md) — AI giúp hệ thống hoá yêu c
 - [x] Gate 1 — Evidence Continuity
 - [x] Gate 2 — Meaningful Options
 - [x] Gate 3 — Human Control
-- [ ] Gate 4 — Test-ready (12 phản hồi là tự báo cáo qua tin nhắn, không có facilitator quan sát trực tiếp)
+- [ ] Gate 4 — Test-ready (1 phản hồi thật, tự báo cáo qua tin nhắn, không có facilitator quan sát trực tiếp — vẫn chưa đủ theo đúng luật facilitation gốc của bài)
 - [x] Gate 5 — Learning, not praise
