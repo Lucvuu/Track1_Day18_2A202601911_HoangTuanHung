@@ -1,117 +1,179 @@
 # Prototype Feedback Note
 
-**Trạng thái:** có 1 phản hồi thật (mục "Phản hồi thật" ngay dưới đây) — thu thập bởi Vũ Thế Lực thay Hưng, vì Hưng đang nằm viện không tự facilitate được. Phần "Mock / Dry-run" phía sau vẫn giữ nguyên làm tài liệu tham khảo, không tính vào Gate 4.
+**Người tổng hợp:** Hoàng Tuấn Hưng — 2A202601911
+**Nhóm:** Đường Bốn Mùa Xuân
+**Case:** VLearn – AI Support Radar
+**Prototype:** https://claude.ai/code/artifact/fce7227a-a027-47b1-9282-2ebf58048e26
 
-## Phản hồi thật
+**Nguồn dữ liệu:** 12 phản hồi thật do Lực thu thập (repo `Track1_Day18_2A202602008_VuTheLuc/prototype-feedback-note.md`), cộng thêm 1 phản hồi thật thu thập riêng cho repo này (mục 10 bên dưới). Phần OBSERVED/INTERPRETED/pattern dưới đây là **cách tôi tự đọc và diễn giải cùng bộ dữ liệu đó** — không phải một phiên tôi tự facilitate, vì tôi không trực tiếp thu thập 12 phản hồi gốc.
 
-**Người trả lời:** 1 người ngoài nhóm, chưa nằm trong 12 người ở repo Lực. Tự mở link prototype (https://claude.ai/code/artifact/fce7227a-a027-47b1-9282-2ebf58048e26), tự dùng cả A/B/C, tự báo lại qua tin nhắn — không có ai quan sát hành vi trực tiếp, giống phương pháp đã dùng cho 12 phản hồi bên repo Lực.
+## 1. Hình thức thu thập feedback
 
-**Lựa chọn:** B — AI Review Queue
+Nhóm thu được phản hồi từ **12 người ngoài nhóm**. Tester tự mở prototype, trải nghiệm cả ba phương án **A/B/C**, sau đó trả lời:
 
-**Lý do:** B cân bằng nhất giữa tự động hóa và quyền kiểm soát. AI chủ động gom các tín hiệu và đưa ra những trường hợp đáng chú ý, nhưng Coach vẫn được xem evidence rồi mới quyết định. A an toàn nhưng hơi thủ công; C nhanh hơn nhưng AI chủ động quá nhiều nên người này sẽ dè chừng hơn khi dùng trong bối cảnh học tập.
+1. Chọn A, B hay C?
+2. Vì sao chọn phương án đó?
+3. Điểm khó chịu hoặc khó hiểu nhất là gì?
 
-**Điểm khó chịu nhất:** khó tin mức High/Medium/Low Priority nếu giao diện không cho biết ngay vì sao AI xếp mức đó. Muốn thấy 2–3 evidence chính ngay trên card (ví dụ checkpoint chưa hoàn thành, repeated attempts, help request) thay vì phải bấm sâu vào màn hình khác mới hiểu recommendation.
+Các phản hồi được gửi lại qua tin nhắn, không có facilitator ngồi cạnh quan sát trực tiếp quá trình thao tác.
 
-**Đối chiếu:** đây là lần thứ ba cùng một điểm được nêu ra độc lập — 4/12 người trong repo Lực, bản dry-run mock của Hưng, và giờ là phản hồi thật này — đều vướng đúng chỗ "chưa rõ vì sao AI xếp priority". Ba nguồn khác nhau chỉ cùng một chỗ là tín hiệu đáng tin để ưu tiên sửa thật, dù cỡ mẫu tổng vẫn nhỏ.
+## 2. Giới hạn phương pháp
 
----
+Đây là hình thức **async self-report**, vì vậy tôi chỉ sử dụng những gì tester trực tiếp báo lại.
 
-## Mock / Dry-run (tài liệu tham khảo, không tính vào Gate 4)
+Không có dữ liệu đủ để kết luận về:
 
-Hưng tự đóng vai tester để luyện format trước khi có phản hồi thật ở trên. Giữ lại bên dưới vì bản dry-run đã dự đoán đúng phát hiện.
+* First action.
+* Chỗ tester dừng hoặc do dự.
+* Evidence nào được đọc hoặc bỏ qua.
+* Thời gian hoàn thành.
+* Cách tester sử dụng recovery trong quá trình thao tác.
 
----
+Do đó tôi không suy đoán thêm các hành vi không được quan sát trực tiếp.
 
-## Thông tin
+## 3. Kết quả tổng hợp
 
-* **Họ và tên:** Hoàng Tuấn Hưng
-* **Mã học viên:** 2A202601911
-* **Nhóm:** Đường Bốn Mùa Xuân
-* **Case:** VLearn – AI Support Radar
-* **Day:** Track 1 – Day 18
-* **Loại feedback:** Mock/Synthetic feedback dùng để dry-run trước khi test thật
+Phân bố lựa chọn của 12 tester:
 
-## 1. Test Context
+* **Option A:** 3/12
+* **Option B:** 5/12
+* **Option C:** 4/12
 
-Tester được đặt vào vai **Lab Coach** đang theo dõi nhiều learner/nhóm cùng lúc và cần xác định nhóm nào nên được hỗ trợ trước.
+Option B được chọn nhiều nhất trong mẫu hiện tại, nhưng kết quả này không được xem là bằng chứng rằng B là solution tốt nhất hoặc đã validated.
 
-Tester trải nghiệm cả ba phương án:
+## 4. OBSERVED
 
-* **Option A – Coach Query:** Coach chủ động yêu cầu AI kiểm tra.
-* **Option B – AI Review Queue:** AI chủ động tổng hợp tín hiệu, Coach review và quyết định.
-* **Option C – Proactive Agent:** AI chủ động hơn và có thể thực hiện một số hành động rủi ro thấp trong phạm vi được cho phép.
+Từ các phản hồi thực tế:
 
-Ba option sử dụng cùng context, task và data fixture để đảm bảo việc so sánh tập trung vào **mức độ AI agency**.
+* 5 tester chọn B.
+* 4 tester chọn C.
+* 3 tester chọn A.
+* Tester chọn B thường nhắc tới việc AI hỗ trợ giảm tải nhưng Coach vẫn giữ quyền quyết định.
+* Tester chọn A đồng thời nhắc đến nhược điểm phải thao tác nhiều hoặc khó scale khi lớp đông.
+* Tester chọn C đánh giá cao tốc độ và tính chủ động nhưng đặt câu hỏi về false positive, monitoring và khả năng AI hiểu sai tín hiệu.
+* Nhiều tester muốn hiểu rõ hơn vì sao AI đưa một nhóm vào mức High/Medium/Low Priority.
+* Có tester đề xuất hiển thị trực tiếp nút hoặc thông tin **"Why?"** cạnh priority.
 
-## 2. Observed
+## 5. INTERPRETED
 
-Qua phần dry-run:
+Từ các phản hồi trên, tôi tạm diễn giải:
 
-* Option B tạo cảm giác cân bằng nhất giữa automation và human control.
-* Người dùng vẫn muốn xem evidence trước khi đồng ý với recommendation của AI.
-* Option A dễ hiểu và an toàn nhưng yêu cầu Coach thực hiện nhiều thao tác hơn.
-* Option C giúp giảm attention cost nhưng gây lo ngại về false positive và việc AI can thiệp quá sớm.
-* Mức **High / Medium / Low Priority** chưa đủ minh bạch nếu không hiển thị lý do ngay trên giao diện.
+### Option A
 
-## 3. Preferred Option
+A tạo cảm giác kiểm soát và an toàn cao vì AI chỉ hoạt động khi Coach yêu cầu.
 
-### Option B – AI Review Queue
+Tuy nhiên, việc cả ba tester chọn A đều đề cập đến thao tác thủ công hoặc khả năng khó scale cho thấy trade-off của A được người dùng cảm nhận tương đối rõ.
 
-Option B được ưu tiên vì AI có thể chủ động chuẩn bị danh sách những trường hợp đáng chú ý nhưng **Coach vẫn giữ quyền quyết định cuối cùng**.
+### Option B
 
-Phương án này giảm thao tác so với Option A nhưng không trao quá nhiều quyền cho AI như Option C.
+B được nhiều tester mô tả là mức cân bằng giữa:
 
-## 4. Main Friction
+> **Automation và Human Control**
 
-Điểm gây khó hiểu nhất là:
+AI có thể chủ động chuẩn bị thông tin nhưng Coach vẫn kiểm tra và quyết định trước khi có tác động tới learner.
 
-> Coach chưa biết rõ tại sao AI đưa một learner hoặc nhóm vào mức High Priority.
+Tuy nhiên, nếu Review Queue quá dài hoặc priority thiếu giải thích thì B vẫn có thể tạo thêm cognitive load.
 
-Nếu AI chỉ hiển thị priority mà không có evidence, người dùng có thể quá tin hoặc hoàn toàn không tin recommendation.
+### Option C
 
-Ngoài ra, với Option C, vẫn có lo ngại AI có thể chủ động check-in nhầm learner không thực sự cần hỗ trợ.
+C hấp dẫn với những người ưu tiên tốc độ và muốn AI hỗ trợ chủ động hơn trong lớp đông.
 
-## 5. Interpretation
+Ngược lại, đây cũng là option tạo ra nhiều câu hỏi nhất liên quan đến:
 
-Tôi tạm diễn giải rằng người dùng chấp nhận AI chủ động hỗ trợ, nhưng vẫn muốn giữ quyền kiểm tra và quyết định cuối cùng.
+* False positive.
+* AI check-in nhầm.
+* Quyền riêng tư và monitoring.
+* Learner có biết mình đang được theo dõi không.
+* AI có thể hiểu sai một tín hiệu như thời gian dừng checkpoint.
 
-Trade-off chính là:
+Điều này cho thấy khi AI agency tăng thì nhu cầu về transparency, consent và recovery cũng tăng theo.
 
-> **AI càng chủ động thì hệ thống càng phải minh bạch về evidence, uncertainty và khả năng sửa sai.**
+## 6. Pattern nổi bật
 
-## 6. Next Change
+Pattern đáng chú ý nhất không phải chỉ là B có số lượt chọn cao nhất, mà là:
 
-Thay đổi được đề xuất:
+> **Tester muốn AI giúp giảm attention cost nhưng vẫn muốn hiểu evidence và giữ khả năng kiểm soát quyết định.**
 
-> **Giữ cơ chế AI Review Queue của Option B nhưng hiển thị evidence summary ngay trên từng priority card.**
+Một pattern khác là sự thiếu minh bạch của priority.
+
+Các câu hỏi như:
+
+* "High Priority được tính như thế nào?"
+* "AI dựa vào tín hiệu gì?"
+* "Có thể xem Why? ngay không?"
+
+xuất hiện nhiều lần và nên được đưa sang iteration tiếp theo.
+
+## 7. DECIDED / NEXT CHANGE
+
+Từ phần feedback tôi tổng hợp, thay đổi nên được ưu tiên là:
+
+> **Giữ cơ chế Review Queue nhưng bổ sung evidence summary và uncertainty ngay trên từng priority card.**
 
 Ví dụ:
 
-**Group 07 — 3 signals worth checking**
+### Group 07 — 3 signals worth checking
 
 * Checkpoint incomplete
 * Repeated attempts ×4
 * Related help queries ×3
 
-`View details`
+`Why?` · `Review` · `Dismiss`
 
-Điều này giúp Coach hiểu nhanh lý do AI đưa ra recommendation mà không cần mở quá nhiều màn hình.
+Thay đổi này nhằm giúp Coach hiểu ngay tại sao AI đưa một case lên queue mà không cần tin vào một nhãn High/Medium/Low đơn thuần.
 
-_(Ghi chú đối chiếu: pattern này trùng với phát hiện độc lập từ 12 phản hồi thật trong repo của Lực — 4/12 người cũng vướng đúng chỗ "chưa rõ priority tính từ đâu". Hai nguồn khác nhau cùng chỉ ra một chỗ, đáng để ưu tiên sửa thật.)_
+Quyết định cuối cùng của cả nhóm được tổng hợp trong [`group-feedback-synthesis.md`](group-feedback-synthesis.md).
 
-## 7. Still Unproven
+## 8. STILL UNPROVEN
 
-Những điều vẫn chưa được chứng minh:
+Sau vòng feedback này, các vấn đề sau vẫn chưa được chứng minh:
 
-* Tín hiệu từ VLAB/checkpoint có đủ chính xác để nhận biết learner đang mắc hay không.
-* Coach có thực sự thường xuyên bỏ sót learner cần hỗ trợ trong lớp học thật hay không.
-* Bottleneck chính nằm ở detection hay ở khả năng hành động sau khi phát hiện.
-* Learner có chấp nhận việc AI phân tích hành vi học tập và chủ động can thiệp hay không.
-* Option B có thực sự giảm cognitive load trong lớp đông hay không.
-* Mock feedback hiện tại chưa thể được coi là validation từ tester thật.
+1. Các learning signals hiện tại có đủ chính xác để dự đoán learner đang mắc hay không.
+2. Cách giải thích priority nào đủ rõ nhưng không làm giao diện quá tải.
+3. False positive ở Option C nên được recovery theo cơ chế nào ngoài Undo/Stop.
+4. Learner có cần được thông báo hoặc cho phép opt-out khỏi behavioral monitoring hay không.
+5. Coach có thực sự thường xuyên bỏ sót learner cần support trong lớp học thật không.
+6. Bottleneck chính nằm ở detection hay ở khả năng hành động sau detection.
+7. Vì feedback là async self-report, chưa biết hành vi thực tế của tester trong quá trình sử dụng prototype.
+8. Chưa thể kết luận B tốt hơn A/C chỉ từ phân bố 5/12, 4/12 và 3/12.
 
-## 8. Reflection
+## 9. Reflection
 
-Qua quá trình thiết kế và dry-run, tôi nhận thấy một hệ thống Human–AI tốt không chỉ cần AI phát hiện nhanh mà còn phải giúp người dùng hiểu **AI đang dựa vào dữ liệu nào, mức độ chắc chắn ra sao và có thể sửa AI như thế nào**.
+Qua vòng feedback, tôi nhận thấy việc tăng AI agency không chỉ là vấn đề thêm automation.
 
-Iteration tiếp theo nên ưu tiên transparency và human control thay vì tăng thêm automation.
+AI càng chủ động thì hệ thống càng phải làm rõ:
+
+* AI đang dựa vào evidence nào.
+* AI chắc chắn đến đâu.
+* Con người có quyền sửa hoặc từ chối ở đâu.
+* Khi AI sai thì recovery như thế nào.
+
+Do đó, iteration tiếp theo nên tập trung vào **evidence transparency, uncertainty và human control** trước khi tiếp tục tăng mức tự động hóa.
+
+---
+
+## 10. Phản hồi thật thu thập riêng cho repo này
+
+Ngoài 12 phản hồi ở trên, có thêm 1 phản hồi thật thu thập riêng (bởi Lực thay tôi, vì tôi đang nằm viện không tự facilitate được) — cùng phương pháp async self-report, chưa nằm trong 12 người ở trên.
+
+**Người trả lời:** 1 người ngoài nhóm. Tự mở link prototype, tự dùng cả A/B/C, tự báo lại qua tin nhắn.
+
+**Lựa chọn:** B — AI Review Queue
+
+**Lý do:** cân bằng nhất giữa tự động hóa và quyền kiểm soát; AI gom tín hiệu nhưng Coach vẫn xem evidence trước khi quyết định. A an toàn nhưng thủ công; C nhanh nhưng AI chủ động quá nhiều nên dè chừng hơn trong bối cảnh học tập.
+
+**Điểm khó chịu nhất:** khó tin mức Priority nếu không biết ngay vì sao AI xếp mức đó — muốn thấy 2–3 evidence chính ngay trên card thay vì phải bấm sâu vào màn hình khác.
+
+Đây là phản hồi thật thứ 13 độc lập cùng nêu đúng vấn đề "chưa rõ priority tính từ đâu" — khớp với pattern ở mục 5–6 phía trên.
+
+---
+
+## Phụ lục — Mock / Dry-run (tài liệu tham khảo, không tính vào Gate 4)
+
+Trước khi có phản hồi thật, tôi tự đóng vai tester để luyện format ghi feedback. **Đây là template dùng chung với Lực** (repo `Track1_Day18_2A202602008_VuTheLuc` cũng có bản gần giống, chỉ đổi tên) — không phải hai lần luyện độc lập ra trùng nhau ngẫu nhiên.
+
+**Loại feedback:** Mock/Synthetic — không phải người ngoài nhóm.
+
+**Preferred option (mock):** B — AI Review Queue, cùng lý do cân bằng automation/control.
+
+**Main friction (mock):** chưa rõ vì sao AI xếp một nhóm vào High Priority nếu không hiển thị evidence ngay trên giao diện — dự đoán đúng pattern mà dữ liệu thật ở trên xác nhận.

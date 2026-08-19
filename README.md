@@ -48,7 +48,7 @@ Việc tôi làm:
 
 Xem [group-feedback-synthesis.md](group-feedback-synthesis.md) — tổng hợp chung của nhóm từ 12 phản hồi thật (thu thập bởi Lực, xem chi tiết phương pháp trong file đó).
 
-[`prototype-feedback-note.md`](prototype-feedback-note.md) của riêng tôi có 1 phản hồi thật (thu thập bởi Lực thay tôi, vì tôi đang nằm viện không tự facilitate được) — chọn Option B, khó chịu nhất ở việc chưa rõ AI tính priority từ đâu, trùng với pattern đã thấy ở cả repo Lực lẫn bản dry-run mock tôi làm trước đó. File còn giữ bản mock để tham khảo, có ghi rõ phần nào là thật.
+[`prototype-feedback-note.md`](prototype-feedback-note.md) của riêng tôi là bản tôi tự tổng hợp OBSERVED/INTERPRETED/pattern từ cùng 12 phản hồi thật bên repo Lực, cộng thêm 1 phản hồi thật thu thập riêng cho repo này (thu thập bởi Lực thay tôi, vì tôi đang nằm viện không tự facilitate được). Đây là cách tôi diễn giải chung một bộ dữ liệu, không phải một phiên tôi tự facilitate — file ghi rõ điều này ở đầu. Kết luận chính: Option B được chọn nhiều nhất (5/12) nhưng không coi là đã validated; pattern rõ nhất là priority chưa đủ minh bạch, nên Next Change đề xuất hiện evidence ngay trên priority card. File còn giữ bản mock/dry-run làm phụ lục tham khảo, không tính vào Gate 4.
 
 ## AI Support Log
 
