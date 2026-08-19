@@ -50,7 +50,7 @@ Việc tôi làm:
 
 Xem [group-feedback-synthesis.md](group-feedback-synthesis.md) — tổng hợp chung của nhóm từ 12 phản hồi thật (thu thập bởi Lực, xem chi tiết phương pháp trong file đó).
 
-`prototype-feedback-note.md` của riêng tôi: _(để trống — tôi chưa tự facilitate một phiên test riêng; sẽ bổ sung nếu có thời gian trước hạn nộp)._
+[`prototype-feedback-note.md`](prototype-feedback-note.md) của riêng tôi hiện là một bản dry-run mock (tôi tự đóng vai tester để luyện format trước khi test thật) — file tự ghi rõ trạng thái này ở đầu, không tính là feedback thật và không tính vào Gate 4. Chưa tự facilitate được phiên nào với người ngoài nhóm trước hạn nộp.
 
 ## AI Support Log
 
