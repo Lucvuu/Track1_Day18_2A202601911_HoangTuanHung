@@ -32,8 +32,6 @@ Prototype chạy được tại [prototype/index.html](prototype/index.html) (m�
 
 ## Đóng góp của tôi trong nhóm
 
-_(Bản nháp dựa trên nội dung commit "Redesign prototype UI" của Hưng — Hưng đọc lại và sửa cho đúng ý mình trước khi nộp, phần này cần chính Hưng xác nhận.)_
-
 Phần tôi phụ trách là thiết kế lại giao diện của cả ba prototype sau khi bản đầu (A/B của Lực, C của Loan) đã chạy được nhưng khó nắm tình hình: mọi khối dùng chung một kiểu khung nên không có phân cấp, không màn nào tóm tắt được tình hình lớp ngay khi mở lên.
 
 Việc tôi làm:
